@@ -5,6 +5,7 @@ A faithful recreation of the classic Chrome offline dinosaur game built entirely
 [![Java](https://img.shields.io/badge/Java-8+-orange.svg)](https://www.oracle.com/java/)
 [![Swing](https://img.shields.io/badge/UI-Java%20Swing-blue.svg)](https://docs.oracle.com/javase/tutorial/uiswing/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![Release](https://img.shields.io/badge/Release-v1.0.0-brightgreen.svg)](https://github.com/AnkeshGG/DinoGame/releases/tag/v1.0.0)
 
 ![Dino Game Preview](assets/DinoGame_Preview.gif)
 
@@ -67,6 +68,16 @@ javac -version
 
 ---
 
+## 📦 Download
+
+> **Don't want to build from source?** Just download and run the installer.
+
+| Platform | Download                                                                                               | Notes |
+|----------|--------------------------------------------------------------------------------------------------------|-------|
+| 🖥️ Windows (64-bit) | [DinoGame-1.0.0.msi](https://github.com/AnkeshGG/DinoGame/releases/download/v1.0.0/DinoGame-1.0.0.msi) | No Java required — JRE is bundled |
+
+---
+
 ## ⚡ Quick Start
 
 ### 1. Clone the Repository
@@ -102,7 +113,7 @@ java -cp out DinoGame
 ## 🏗️ Project Structure
 
 ```
-dino-game/
+DinoGame/
 ├── src/
 │   ├── DinoGame.java          # Main panel, game loop, rendering, input
 │   ├── Dino.java              # Player character: physics, animation, hitbox
@@ -196,6 +207,7 @@ This project is licensed under the **MIT License** – see the [LICENSE](LICENSE
 
 - **Version**: 1.0.0  
 - **Last Updated**: February 2026  
+- **Latest Release**: [v1.0.0](https://github.com/AnkeshGG/DinoGame/releases/tag/v1.0.0)
 - **Stars**: ⭐ Give this project a star if you enjoyed it!
 - **Issues**: Tracked via GitHub Issues
 
@@ -205,7 +217,7 @@ This project is licensed under the **MIT License** – see the [LICENSE](LICENSE
 
 An endless runner with no finish line — just you, a dinosaur, and an ever-faster desert. Jump over cacti, dodge pterodactyls, and push through the night to set a new personal best.
 
-**[📥 Clone & Play](#-quick-start)** | **[🎮 Controls](#-controls)** | **[🤝 Contribute](#-contributing)**
+**[⬇️ Download Installer](#-download)** | **[📥 Clone & Play](#-quick-start)** | **[🎮 Controls](#-controls)** | **[🤝 Contribute](#-contributing)**
 
 ---
 © 2026 Ankesh Kumar.
